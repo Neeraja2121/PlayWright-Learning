@@ -3,7 +3,7 @@
  test('Video Recording using Browser',async()=> {
     const browser=await chromium.launch({
             slowMo:500,
-            headless:false
+            headless:true
         });
     
         const context=await browser.newContext({
