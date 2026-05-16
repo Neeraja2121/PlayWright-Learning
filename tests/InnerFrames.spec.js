@@ -27,7 +27,7 @@ test('Inner Frames', async ({ page }) => {
 
 
 
-test.only('Inner Frames2', async ({ page }) => {
+test('Inner Frames2', async ({ page }) => {
 
     await page.goto("https://ui.vision/demo/webtest/frames/");
 
