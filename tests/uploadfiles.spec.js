@@ -14,7 +14,7 @@
 
  });
 
- test.only('Multiple Files upload',async({page})=>{
+ test('Multiple Files upload',async({page})=>{
 
      await page.goto("https://davidwalsh.name/demo/multiple-file-upload.php");
 
