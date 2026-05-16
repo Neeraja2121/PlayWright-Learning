@@ -15,7 +15,7 @@
     
   });
 
-  test.only('Video Recording Demo 2', async()=>{
+  test('Video Recording Demo 2', async()=>{
     
     const browser=await chromium.launch({
         slowMo:500,
