@@ -1,3 +1,3 @@
  import{test,expect} from '@playwright/test'
 
- test('API Mocking',async({rout}))
+ test('API Mocking',async({route}))
